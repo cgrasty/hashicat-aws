@@ -3,7 +3,6 @@ module "s3_bucket" {
 
   bucket = "my-s3-bucket"
   acl    = "private"
-  bucket_prefix = "cgrasty"
 
   versioning = {
     enabled = true
